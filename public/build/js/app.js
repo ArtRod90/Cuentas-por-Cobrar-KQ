@@ -1,0 +1,1 @@
+!function(){const e=document.querySelector(".header"),o=document.querySelector(".div_oculto");window.addEventListener("scroll",(function(){o.getBoundingClientRect().top<0?e.classList.add("fijo"):e.classList.remove("fijo")}))}();
