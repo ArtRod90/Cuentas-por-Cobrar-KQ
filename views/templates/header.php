@@ -5,7 +5,7 @@
             <a class="logo-imagen" href="/" title="Inicio">
             <picture>
             <!-- <source  loading="lazy" srcset="/build/img/Perzosoft48.webp" type="image/webp"> -->
-            <img   loading="lazy" src="/build/img/MAYA1.BMP" alt="logo">
+            <img   loading="lazy" src="/build/img/LOGO.BMP" alt="logo">
             </picture>
             </a>
             <a href="/" title="Inicio"><p class="titulo-header">Karla Quintana | Cuentas por Cobrar</p></a>
