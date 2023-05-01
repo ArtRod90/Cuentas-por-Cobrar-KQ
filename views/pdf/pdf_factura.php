@@ -60,7 +60,7 @@ html {
 </head>
 <body>
    <div class="cliente_info">
-   <h1>Frutas Maya</h1>
+   <h1>Karla Quintana</h1>
    <h2>Cuentas por Cobrar</h2>
    <h3 >Cliente: <?php echo $cliente ?></h3>
    </div>

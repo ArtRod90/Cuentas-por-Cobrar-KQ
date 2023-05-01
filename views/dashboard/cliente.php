@@ -66,7 +66,7 @@ if ($facturas === [] || $facturas === null || empty($facturas)) {
      $plazoTranscurrido = $fechafactura->diff($fechaActual);
      $fechafactura->add(new DateInterval("P" . $factura->PLAZO . "D"));
      $fechaVencimiento = $fechafactura->format("Y-m-d");
-     if ($plazoTranscurrido->days  >= $factura->PLAZO) {
+     if ($plazoTranscurrido->days  > $factura->PLAZO) {
         $clase = "vencido";
      }elseif ($plazoTranscurrido->days  < $factura->PLAZO && $factura->PLAZO - $plazoTranscurrido->days <= 3) {
         $clase = "por-vencer";

@@ -1,6 +1,6 @@
 <style>
     .logo{
-        max-width: 12rem !important;
+        max-width: 8rem !important;
     }
 </style>
 <header class="header">    
